@@ -74,7 +74,7 @@ config.min_scroll_bar_height = '2cell'
 config.native_macos_fullscreen_mode = true
 
 -- background
-local wallpaper_path = HOME .. '/Pictures/wallpaperflare1.jpg'
+local wallpaper_path = HOME .. '/Pictures/wallpaper.jpg'
 local wallpaper_file = io.open(wallpaper_path, 'r')
 if wallpaper_file then
   wallpaper_file:close()
@@ -85,7 +85,7 @@ if wallpaper_file then
       },
       repeat_y = 'NoRepeat',
       hsb = {
-        brightness = 0.17,
+        brightness = 0.04,
         hue = 1.0,
         saturation = 1.0,
       },

@@ -1,12 +1,12 @@
 <!-- markdownlint-disable MD041 MD013 MD033 MD045  -->
 
-[![Super-Linter](https://github.com/mosheavni/dotfiles/actions/workflows/lint.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
+[![Super-Linter](https://github.com/ohad360/dotfiles/actions/workflows/lint.yml/badge.svg)](https://github.com/marketplace/actions/super-linter)
 
-# Moshe Avni's DotFiles
+# Ohad Bokin's DotFiles
 
-<a href="https://dotfyle.com/mosheavni/dotfiles-nvim-config-nvim"><img src="https://dotfyle.com/mosheavni/dotfiles-nvim-config-nvim/badges/plugins?style=flat" /></a>
-<a href="https://dotfyle.com/mosheavni/dotfiles-nvim-config-nvim"><img src="https://dotfyle.com/mosheavni/dotfiles-nvim-config-nvim/badges/leaderkey?style=flat" /></a>
-<a href="https://dotfyle.com/mosheavni/dotfiles-nvim-config-nvim"><img src="https://dotfyle.com/mosheavni/dotfiles-nvim-config-nvim/badges/plugin-manager?style=flat" /></a>
+<a href="https://dotfyle.com/ohad360/dotfiles-nvim-config-nvim"><img src="https://dotfyle.com/ohad360/dotfiles-nvim-config-nvim/badges/plugins?style=flat" /></a>
+<a href="https://dotfyle.com/ohad360/dotfiles-nvim-config-nvim"><img src="https://dotfyle.com/ohad360/dotfiles-nvim-config-nvim/badges/leaderkey?style=flat" /></a>
+<a href="https://dotfyle.com/ohad360/dotfiles-nvim-config-nvim"><img src="https://dotfyle.com/ohad360/dotfiles-nvim-config-nvim/badges/plugin-manager?style=flat" /></a>
 
 ## Usage
 
@@ -32,7 +32,7 @@
 
    ```bash
    [[ -d ~/Repos ]] || mkdir ~/Repos
-   cd ~ && git clone git@github.com:mosheavni/dotfiles.git .dotfiles && cd .dotfiles
+   cd ~ && git clone git@github.com:ohad360/dotfiles.git .dotfiles && cd .dotfiles
    ```
 
 3. Install [antidote](https://antidote.sh/)
@@ -95,13 +95,13 @@
 Clone the repository and install the plugins:
 
 ```sh
-git clone git@github.com:mosheavni/dotfiles ~/.config/mosheavni/dotfiles
+git clone git@github.com:ohad360/dotfiles ~/.config/ohad360/dotfiles
 ```
 
 Open Neovim with this config:
 
 ```sh
-NVIM_APPNAME=mosheavni/dotfiles/nvim/.config/nvim nvim
+NVIM_APPNAME=ohad360/dotfiles/nvim/.config/nvim nvim
 ```
 
 ## Additional stuff

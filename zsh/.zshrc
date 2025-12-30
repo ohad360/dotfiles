@@ -32,13 +32,6 @@ path=(
   $path
 )
 
-# Add devops-scripts subdirectories to PATH (only if directory exists)
-if [[ -d "$HOME/Repos/moshe/devops-scripts" ]]; then
-  for i in $HOME/Repos/moshe/devops-scripts/*; do
-    [[ -d "$i" && -x "$i" ]] && path+=("$i")
-  done
-fi
-
 export PATH
 export XDG_CONFIG_HOME=${HOME}/.config
 unset ZSH_AUTOSUGGEST_USE_ASYNC
