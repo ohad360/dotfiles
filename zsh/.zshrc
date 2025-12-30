@@ -95,10 +95,10 @@ export KUBERNETES_EXEC_INFO='{"apiVersion": "client.authentication.k8s.io/v1beta
 # Starship prompt (loaded synchronously as it's needed immediately)
 eval "$(starship init zsh)"
 
-export K8S_DEV=true
-export PR_REVIEW_DEV=true
-export CMP_COMPLETION='<C-Space>'
-export PJ_DIRS='~/Repos/,~/.dotfiles,~/Repos/moshe/'
+export K8S_DEV=false
+export PR_REVIEW_DEV=false
+export CMP_COMPLETION='<M-Space>'
+export PJ_DIRS='~/Repos/,~/.dotfiles'
 
 # ==================== #
 # MCP Servers Sync     #
